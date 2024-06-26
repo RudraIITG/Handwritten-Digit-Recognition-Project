@@ -1,2 +1,2 @@
 # Handwritten-Digit-Recognition-Project
-This project is based on the MNIST, the project receives user drawn digits by a Graphical user interface and does prediction for the digit using an Artificial neural network consisting 2 hidden layers,,
+This project is based on the MNIST( Modified National Institute of Standards and Technology ) Dataset consisting of 70,000 gray scale images of digits ranging from 0 to 9. Each picture of 28*28 pixels and partitioned into 60,000 training and 10,000 test images. The project is regarding using this data and training a deep learning model for digit prediction based on the user input of a drawn digit through a Graphical User Interface.
