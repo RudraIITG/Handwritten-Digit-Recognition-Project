@@ -4,8 +4,8 @@ from PIL import Image, ImageDraw
 
 class DigitDrawer:
     def __init__(self):
-        # Load the model with compile=False
-        self.model = tf.keras.models.load_model('DeepNeural_Handwriting_model.keras', compile=False)
+        # Load the model with custom objects and explicit input shape
+        self.model = tf.keras.models.load_model('DeepNeural_Handwriting_model.keras', compile=False, custom_objects=None, options=None)
         # Initialize image and drawing
         self.image = Image.new("L", (280, 280), 255)
         self.draw = ImageDraw.Draw(self.image)
